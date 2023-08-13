@@ -14,7 +14,7 @@
             Create QR
         </div>
         <span>
-            Add Content
+            add content
         </span>
         <form method="post" action="" id="qr-generate-form">
             <div class="input-link">
@@ -23,25 +23,21 @@
                 </label>
                 <input id="input-link" placeholder="https://www.yourlink.com" required>
             </div>
-            <div class="qr-design-container">
-                <div id="after-generate">
+            <div class="qr-result-container">
+                <div class="after-generate">
                     <img src="" class="result">
-                    <div class="qr-design-container">
-                        <button type="submit" class="button" id="download-button">
-                            download
+                    <div class="qr-button-container">
+                        <button type="button" class="button" id="download-button">
+                            Download
                         </button>
-                    </div>
+                    </div>                    
                 </div>
                 <button type="submit" class="button" id="generate-button">
                     Generate QR
                 </button>
-                <span>
-
-                </span>
             </div>
         </form>
     </div>
-    <!-- script -->
     <script src="js/script.js"></script>
 </body>
 </html>
