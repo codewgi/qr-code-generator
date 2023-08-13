@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qrcode generator</title>
+
+    <!-- link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            Create QR
+        </div>
+        <span>
+            Add Content
+        </span>
+        <form method="post" action="" id="qr-generate-form">
+            <div class="input-link">
+                <label to="input-link">
+                    Link or text:
+                </label>
+                <input id="input-link" placeholder="https://www.yourlink.com" required>
+            </div>
+            <div class="qr-design-container">
+                <div id="after-generate">
+                    <img src="" class="result">
+                    <div class="qr-design-container">
+                        <button type="submit" class="button" id="download-button">
+                            download
+                        </button>
+                    </div>
+                </div>
+                <button type="submit" class="button" id="generate-button">
+                    Generate QR
+                </button>
+                <span>
+
+                </span>
+            </div>
+        </form>
+    </div>
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
