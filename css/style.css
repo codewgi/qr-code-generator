@@ -1,5 +1,5 @@
 html, body {
-    background: #F8F8F8;
+    background: #f8f8f8;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,11 +12,10 @@ html, body {
 
 .container {
     width: 22%;
-    /* height: 50%; */
     overflow: hidden;
-    background-color: white;
+    background: white;
     text-align: center;
-    border-radius: 10px;
+    border: 10px;
     padding: 40px;
     padding-bottom: 80px;
     display: flex;
@@ -28,14 +27,14 @@ html, body {
     width: 40%;
     margin-bottom: 20px;
     padding-bottom: 3px;
-    border-bottom: 4px solid #8c0ee6;
+    border-bottom: 4px solid #8c0e66;
     font-weight: 700;
     font-size: 30px;
 }
 
 .container span {
     margin-bottom: 10px;
-    font-size: larger;
+    font-size: 30px;
 }
 
 .container form {
@@ -56,23 +55,23 @@ html, body {
     margin-bottom: 10px;
 }
 
-.container .qr-design-container {
+.container .qr-result-container {
     margin-top: 20px;
     width: 100%;
 }
 
-.container .qr-design-container #after-generate {
+.container .qr-result-container #after-generate {
     display: none;
 }
 
-.container .qr-design-container #after-generate .result {
+.container .qr-result-container #after-generate .result{
     width: 65%;
-    margin: 15px
+    margin: 15px;
 }
 
-.container .qr-design-container .button {
+.container .qr-result-container .button {
     background: #fff;
-    border: 1px solid #8c0ee6;
+    border: 1px solid #8c0e66;
     border-radius: 10px;
     width: 100%;
     padding: 14px;
@@ -80,8 +79,8 @@ html, body {
     margin-top: 10px;
 }
 
-.container .qr-design-container .button:hover {
-    background-color: #8c0ee6;
+.container .qr-result-container .button:hover {
+    background: #8c0e66;
     transition: 0.3s;
     color: white;
 }
@@ -90,6 +89,7 @@ html, body {
     .container {
         width: 90%;
     }
+
     .container .title {
         width: 50%;
     }
